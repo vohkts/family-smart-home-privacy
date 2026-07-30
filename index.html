@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>Datenschutzerklärung – Family Smart Home Request Assistant</title>
+  <meta name="description" content="Datenschutzerklärung für den Family Smart Home Request Assistant.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f6f7f9;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --line: #e5e7eb;
+      --accent: #2563eb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --card: #1f2937;
+        --text: #f9fafb;
+        --muted: #cbd5e1;
+        --line: #374151;
+        --accent: #60a5fa;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      width: min(900px, calc(100% - 32px));
+      margin: 48px auto;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: clamp(24px, 5vw, 56px);
+      box-shadow: 0 12px 40px rgba(0,0,0,.08);
+    }
+    h1, h2 { line-height: 1.25; }
+    h1 { margin-top: 0; font-size: clamp(2rem, 5vw, 3rem); }
+    h2 { margin-top: 2.2rem; font-size: 1.35rem; }
+    p, li { max-width: 72ch; }
+    .meta { color: var(--muted); }
+    .notice {
+      margin: 24px 0;
+      padding: 16px 18px;
+      border-left: 4px solid var(--accent);
+      background: color-mix(in srgb, var(--accent) 8%, transparent);
+      border-radius: 8px;
+    }
+    nav { margin: 0 0 28px; }
+    nav a { color: var(--accent); text-decoration: none; margin-right: 18px; }
+    nav a:hover { text-decoration: underline; }
+    a { color: var(--accent); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+    footer { margin-top: 40px; color: var(--muted); font-size: .95rem; }
+  </style>
+</head>
+<body>
+<main>
+  <nav aria-label="Sprachauswahl">
+    <a href="#de">Deutsch</a>
+    <a href="#en">English</a>
+  </nav>
+
+  <section id="de" lang="de">
+    <h1>Datenschutzerklärung</h1>
+    <p class="meta">Family Smart Home Request Assistant · Stand: 30. Juli 2026</p>
+
+    <div class="notice">
+      Dieser Assistent nimmt Smart-Home-Änderungswünsche auf und übermittelt sie nach ausdrücklicher Bestätigung als Issue an ein privates GitHub-Repository.
+    </div>
+
+    <h2>1. Verantwortlicher</h2>
+    <p>Verantwortlich für diesen privaten Familien-Assistenten ist der Betreiber des GitHub-Kontos <strong>vohkts</strong>.</p>
+
+    <h2>2. Zweck der Verarbeitung</h2>
+    <p>Der Assistent strukturiert in Alltagssprache beschriebene Wünsche, Probleme und Verbesserungsvorschläge für ein privat betriebenes Home-Assistant-System. Vollständig geklärte Anforderungen können als GitHub-Issue an das private Projekt übergeben werden.</p>
+
+    <h2>3. Verarbeitete Daten</h2>
+    <p>Abhängig von der Eingabe können insbesondere folgende Inhalte verarbeitet werden:</p>
+    <ul>
+      <li>Titel und Beschreibung des Änderungswunsches,</li>
+      <li>gewünschtes Verhalten, Bedingungen und Ausnahmen,</li>
+      <li>Akzeptanzkriterien, Priorität und erkennbare Risiken,</li>
+      <li>freiwillig genannte Informationen über Geräte, Räume oder Benachrichtigungsempfänger.</li>
+    </ul>
+    <p>Es sollen keine Passwörter, Tokens, privaten Schlüssel, Zugangsdaten, vollständigen Gerätekennungen oder sonstigen Geheimnisse eingegeben werden.</p>
+
+    <h2>4. Übermittlung an GitHub</h2>
+    <p>Nach Bestätigung durch die Nutzerin oder den Nutzer werden der Issue-Titel und der strukturierte Inhalt an GitHub übermittelt und in einem privaten Repository gespeichert. Die Action ist ausschließlich dafür vorgesehen, neue Issues in diesem festgelegten Repository anzulegen.</p>
+
+    <h2>5. Keine direkte Smart-Home-Steuerung</h2>
+    <p>Der Assistent greift nicht direkt auf Home Assistant, Geräte, Live-Zustände, lokale Netzwerke, Secrets oder Deployment-Systeme zu. Er erstellt keine Branches, Pull Requests oder Deployments und führt keine Geräteaktionen aus.</p>
+
+    <h2>6. Rechtsgrundlage und Nutzungskontext</h2>
+    <p>Die Nutzung erfolgt im privaten und familiären Umfeld. Die Verarbeitung dient ausschließlich der Organisation und technischen Umsetzung freiwillig übermittelter Smart-Home-Anforderungen.</p>
+
+    <h2>7. Speicherdauer</h2>
+    <p>Übermittelte Anforderungen bleiben im privaten GitHub-Repository gespeichert, bis sie vom Repository-Inhaber gelöscht, geschlossen oder im Rahmen der Projektpflege archiviert werden.</p>
+
+    <h2>8. Empfänger und externe Dienste</h2>
+    <p>Für die Verarbeitung werden ChatGPT/OpenAI und GitHub genutzt. Für deren eigene Datenverarbeitung gelten zusätzlich die jeweiligen Datenschutzbestimmungen und Nutzungsbedingungen dieser Anbieter.</p>
+
+    <h2>9. Betroffenenrechte</h2>
+    <p>Betroffene Personen können Auskunft, Berichtigung oder Löschung der im privaten GitHub-Projekt gespeicherten Inhalte verlangen. Hierzu kann der Betreiber des Assistenten direkt kontaktiert werden.</p>
+
+    <h2>10. Datensicherheit</h2>
+    <p>Der verwendete GitHub-Zugang soll auf das notwendige Repository und die Berechtigung zum Erstellen von Issues beschränkt sein. Zugangsdaten werden nicht in öffentlichen Repository-Dateien gespeichert.</p>
+
+    <h2>11. Änderungen dieser Erklärung</h2>
+    <p>Diese Datenschutzerklärung kann angepasst werden, wenn sich Funktionsumfang, eingesetzte Dienste oder Verarbeitungszwecke ändern.</p>
+  </section>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Family Smart Home Request Assistant · Last updated: July 30, 2026</p>
+
+    <div class="notice">
+      This assistant collects smart-home change requests and, after explicit confirmation, submits them as issues to a private GitHub repository.
+    </div>
+
+    <h2>1. Controller</h2>
+    <p>This private family assistant is operated by the owner of the GitHub account <strong>vohkts</strong>.</p>
+
+    <h2>2. Purpose of processing</h2>
+    <p>The assistant structures wishes, problems, and improvement requests for a privately operated Home Assistant system. Fully clarified requests may be transferred to the private project as GitHub issues.</p>
+
+    <h2>3. Data processed</h2>
+    <p>Depending on the user's input, the following information may be processed:</p>
+    <ul>
+      <li>the title and description of the requested change,</li>
+      <li>desired behavior, conditions, and exceptions,</li>
+      <li>acceptance criteria, priority, and identified risks,</li>
+      <li>voluntarily provided information about devices, rooms, or notification recipients.</li>
+    </ul>
+    <p>Users must not submit passwords, tokens, private keys, credentials, complete device identifiers, or other secrets.</p>
+
+    <h2>4. Transfer to GitHub</h2>
+    <p>After user confirmation, the issue title and structured request content are transmitted to GitHub and stored in a private repository. The action is intended solely to create new issues in that predefined repository.</p>
+
+    <h2>5. No direct smart-home control</h2>
+    <p>The assistant does not directly access Home Assistant, devices, live states, local networks, secrets, or deployment systems. It does not create branches, pull requests, or deployments and does not execute device actions.</p>
+
+    <h2>6. Context of use</h2>
+    <p>The assistant is used in a private family context. Processing is limited to organizing and preparing voluntarily submitted smart-home requests.</p>
+
+    <h2>7. Retention</h2>
+    <p>Submitted requests remain stored in the private GitHub repository until they are deleted, closed, or archived by the repository owner.</p>
+
+    <h2>8. External services</h2>
+    <p>ChatGPT/OpenAI and GitHub are used to provide this workflow. Their respective privacy policies and terms also apply to their own processing activities.</p>
+
+    <h2>9. Data subject rights</h2>
+    <p>Individuals may request access, correction, or deletion of information stored in the private GitHub project by contacting the operator of the assistant.</p>
+
+    <h2>10. Security</h2>
+    <p>The GitHub credential used by the action should be restricted to the required repository and issue-creation permission. Credentials are not stored in public repository files.</p>
+
+    <h2>11. Changes</h2>
+    <p>This policy may be updated if the assistant's functionality, services, or processing purposes change.</p>
+  </section>
+
+  <footer>
+    <p>This page contains no analytics, advertising, cookies, or tracking scripts.</p>
+  </footer>
+</main>
+</body>
+</html>
